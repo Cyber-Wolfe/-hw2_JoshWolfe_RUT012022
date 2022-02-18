@@ -1,4 +1,6 @@
-#### Kickstarter Analysis
+# Stock Ticker Analysis
+
+## Overview of Project
 The purpose of this project is that Steve's parents wanted to invest into renewable energy companies but do not know a lot about that field. So they had invest into one company, DAQO New Energy Corp, because it had sentimental reasons for them.  Steve thought it best to instead analyze other renewable energy companies as well to help diversify his parent's portfolio and has enlisted us to help. We are here to make a simple script for him to give a quick analysis that his parents can see and understand.
 
 # Results of Tickers
