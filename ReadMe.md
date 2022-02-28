@@ -33,6 +33,7 @@ and this gave me the ending price and then the begginning price so Steve can see
 
 
 After some minor cleaning of the code I had gotten 2017 and 2018 to under a second. Although this also could be attributed to my computer's build that also allows for a very quick script deployment. 
+
 ![VBA_Challenge_2017](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2017.PNG) 
 ![VBA_Challenge_2018](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2018.PNG)
 
