@@ -4,13 +4,16 @@
 The purpose of this project is that Steve's parents wanted to invest into renewable energy companies but do not know a lot about that field. So they had invest into one company, DAQO New Energy Corp, because it had sentimental reasons for them.  Steve thought it best to instead analyze other renewable energy companies as well to help diversify his parent's portfolio and has enlisted us to help. We are here to make a simple script for him to give a quick analysis that his parents can see and understand.
 
 ## Results of Tickers
-From the data we have gathered the stocks compared from 2017 ![StockPerformance2017.PNG](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/StockPerformance2017.PNG) and 2018 ![StockPerformance2018](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/StockPerformance2018.PNG) show that the companies that Steve has found won't perform well for the most part. I had combed through the data and checked the volume using this line: 
+![StockPerformance2017.PNG](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/StockPerformance2017.PNG)
+![StockPerformance2018](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/StockPerformance2018.PNG)
+
+From the data we have gathered the stocks compared from 2017 and 2018 show that the companies that Steve has found won't perform well for the most part.  I had combed through the data and checked the volume using this line: 
 ```
 If Cells(j, 1).Value = tickers(tickerindex) Then
             tickerVolumes(tickerindex) = tickerVolumes(tickerindex) + Cells(j, 8).Value
         End If
 ```
-which gives me the volume to post into the analysis. The tickerindex variable being which ticker we are currently running through in this dataset.  Then after the volume was calculated I had grabbed the beggining and end price of the stock:
+This code had given me the volume to post into the analysis. The tickerindex variable being which ticker we are currently running through in this dataset.  Then after the volume was calculated I had grabbed the beggining and end price of the stock:
      
 ```
 If Cells(j - 1, 1).Value <> tickers(tickerindex) And Cells(j, 1).Value = tickers(tickerindex) Then
@@ -19,6 +22,7 @@ If Cells(j - 1, 1).Value <> tickers(tickerindex) And Cells(j, 1).Value = tickers
             
 If Cells(j + 1, 1).Value <> tickers(tickerindex) And Cells(j, 1).Value = tickers(tickerindex) Then
             tickerEndingPrices(tickerindex) = Cells(j, 6).Value
+        tickerindex = tickerindex + 1
         End If
         
         Next j
