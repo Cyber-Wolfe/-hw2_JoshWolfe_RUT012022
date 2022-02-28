@@ -3,7 +3,7 @@
 ## Overview
 The purpose of this project is that Steve's parents wanted to invest into renewable energy companies but do not know a lot about that field. So they had invest into one company, DAQO New Energy Corp, because it had sentimental reasons for them.  Steve thought it best to instead analyze other renewable energy companies as well to help diversify his parent's portfolio and has enlisted us to help. We are here to make a simple script for him to give a quick analysis that his parents can see and understand.
 
-## Results of Tickers
+## Results of Script
 ![StockPerformance2017.PNG](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/StockPerformance2017.PNG)
 ![StockPerformance2018](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/StockPerformance2018.PNG)
 
@@ -38,7 +38,7 @@ After some minor cleaning of the code I had gotten 2017 and 2018 to under a seco
 ![VBA_Challenge_2018](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2018.PNG)
 
 
-##Results
+## Results of Analysis
 From a glance of the two pictures of the 2017 and 2018 performance its clear that the stocks that Steve chose, apart from two, had proven to do poorly in 2018 compared to 2017. ENPH and RUN had another great year of returns compared to the rest on this table. It's clear that the stocks he chose have to be dwindled down to these two only as safe investments for his parents.  The last thing I can infer on is that even if the yearly return of these 12 stocks had only 20% of them be in the green, the volume could be a good sign if one of his parents were a daytrader. That being that daily volume being high is a good sign that puts and shorts are being made but that isn't investing.  
 
 ## Summary of Data
