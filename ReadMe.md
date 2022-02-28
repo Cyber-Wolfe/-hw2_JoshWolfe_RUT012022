@@ -27,7 +27,10 @@ If Cells(j + 1, 1).Value <> tickers(tickerindex) And Cells(j, 1).Value = tickers
         
         Next j
 ```
-and this gave me the ending price and then the begginning price so Steve can see how it changed over time.  After running this code originally the times were quick being at 0.6406 seconds and 0.6483 seconds respectfully for 2017 ![VBA_Challenge_2017_Unfactored](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2017_Unfactored.PNG) and 2018 ![VBA_Challenge_2018_Unfactored](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2018_Unfactored.PNG) respectfully. 
+and this gave me the ending price and then the begginning price so Steve can see how it changed over time.  After running this code originally the times were quick being at 0.6406 seconds and 0.6483 seconds respectfully for 2017 and 2018 respectfully.
+### Code
+![VBA_Challenge_2017_Unfactored](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2017_Unfactored.PNG)
+![VBA_Challenge_2018_Unfactored](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2018_Unfactored.PNG)
 After some minor cleaning of the code I had gotten 2017 down to 0.2304 seconds [!VBA_Challenge_2017](Module 2\Resources\VBA_Challenge_2017) but ran into issues with 2018 not giving me back a response, and ultimately no longer giving me a result for 2017 which proved to be troubling.
 
 ##Results
