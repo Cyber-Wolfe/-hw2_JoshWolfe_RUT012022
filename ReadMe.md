@@ -4,7 +4,7 @@
 The purpose of this project is that Steve's parents wanted to invest into renewable energy companies but do not know a lot about that field. So they had invest into one company, DAQO New Energy Corp, because it had sentimental reasons for them.  Steve thought it best to instead analyze other renewable energy companies as well to help diversify his parent's portfolio and has enlisted us to help. We are here to make a simple script for him to give a quick analysis that his parents can see and understand.
 
 ## Results of Tickers
-From the data we have gathered the stocks compared from 2017 ![StockPerformance2017](\Resources\StockPerformance2017) and 2018 [!StockPerformance2018](Module 2\Resources\StockPerformance2018) show that the companies that Steve has found won't perform well for the most part. I had combed through the data and checked the volume using this line: 
+From the data we have gathered the stocks compared from 2017 ![StockPerformance2017.PNG](\Resources\StockPerformance2017) and 2018 [!StockPerformance2018](Module 2\Resources\StockPerformance2018) show that the companies that Steve has found won't perform well for the most part. I had combed through the data and checked the volume using this line: 
 ```
 If Cells(j, 1).Value = tickers(tickerindex) Then
             tickerVolumes(tickerindex) = tickerVolumes(tickerindex) + Cells(j, 8).Value
