@@ -31,9 +31,12 @@ and this gave me the ending price and then the begginning price so Steve can see
 ![VBA_Challenge_2017_Unfactored](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2017_Unfactored.PNG)
 ![VBA_Challenge_2018_Unfactored](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2018_Unfactored.PNG)
 
+
 After some minor cleaning of the code I had gotten 2017 and 2018 to under a second. Although this also could be attributed to my computer's build that also allows for a very quick script deployment. 
 ![VBA_Challenge_2017](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2017.PNG) 
-![VBA_Challenge_2018]
+![VBA_Challenge_2018](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2018.PNG)
+
+
 ##Results
 From a glance of the two pictures of the 2017 and 2018 performance its clear that the stocks that Steve chose, apart from two, had proven to do poorly in 2018 compared to 2017. ENPH and RUN had another great year of returns compared to the rest on this table. It's clear that the stocks he chose have to be dwindled down to these two only as safe investments for his parents.  The last thing I can infer on is that even if the yearly return of these 12 stocks had only 20% of them be in the green, the volume could be a good sign if one of his parents were a daytrader. That being that daily volume being high is a good sign that puts and shorts are being made but that isn't investing.  
 
