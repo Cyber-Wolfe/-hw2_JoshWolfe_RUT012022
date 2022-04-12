@@ -28,6 +28,7 @@ If Cells(j + 1, 1).Value <> tickers(tickerindex) And Cells(j, 1).Value = tickers
         Next j
 ```
 and this gave me the ending price and then the begginning price so Steve can see how it changed over time.  After running this code originally the times were quick being at 0.6406 seconds and 0.6483 seconds respectfully for 2017 and 2018 respectfully:
+
 ![VBA_Challenge_2017_Unfactored](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2017_Unfactored.PNG)
 ![VBA_Challenge_2018_Unfactored](https://github.com/Cyber-Wolfe/-hw2_JoshWolfe_RUT012022/blob/main/Resources/VBA_Challenge_2018_Unfactored.PNG)
 
